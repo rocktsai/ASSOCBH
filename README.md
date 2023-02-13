@@ -13,7 +13,8 @@ AI-assisted sentencing system for Offenses of Causing Bodily Harm<br>
 ## 專案流程簡介
 1. 利用Python Selenium等套件進行大量判決書文本爬取
 2. 利用Python Pandas等套件進行文本的清整與資料集的建立
-3. 利用jieba、word2vec、TF-IDF搭配人工篩選機制進行特徵工程
-4. 利用隨機森林與xgboost將encoding後的資料及進行訓練
-5. 利用HTML搭配Flask將訓練好的模型串接上網頁
-6. 利用Docker將網頁部署上AWS
+3. 架設Hadoop分散式檔案系統並用Spark進行後續資料集的處理
+4. 利用jieba、word2vec、TF-IDF搭配人工篩選機制進行特徵工程
+5. 利用隨機森林與xgboost將encoding後的資料及進行訓練
+6. 利用HTML搭配Flask將訓練好的模型串接上網頁
+7. 利用Docker將網頁部署上AWS
