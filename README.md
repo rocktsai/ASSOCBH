@@ -1,12 +1,16 @@
 # ASSOCBH
 AI-assisted sentencing system for Offenses of Causing Bodily Harm<br>
 由人工智慧輔助的傷害罪量刑系統
-# 動機
+## 動機
 1. 實任司法官養成曠日廢時
 2. 案件數量越來越多
-# 目的
+## 目的
 1. 減輕法官作審案時間、提升法院效率
 2. 檢察官及律師可以參考模型給出的判決結果
-# 為什麼選擇傷害罪?
+## 為什麼選擇傷害罪?
   傷害罪是刑法中較基礎的犯罪 <br>
   傷害罪的案件佔比高
+## 專案流程簡介
+1. 利用Python Selenium等套件進行大量判決書文本爬取
+2. 利用Python Pandas等套件進行文本的清整與資料集的建立
+3. 利用
